@@ -1,0 +1,30 @@
+body{
+    background-color:green;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    
+    
+}
+div{
+    margin-top: 20%;
+    background-color:slategray;
+    padding: 10px;
+   
+}
+
+@media screen and (max-width: 992px) {
+    body {
+
+      background-color:darkcyan;
+      color: white;
+    }
+}
+@media screen and (max-width: 660px) {
+    body {
+        background-color:orange;
+        color: bisque;
+
+    }
+}
+/* max-width break point which change style*/
